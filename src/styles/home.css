@@ -1,0 +1,59 @@
+.home-svg-icons{
+    height: 6rem;
+    width: 6rem;
+}
+
+.route-store{
+    width: 95%;
+    max-width: 70rem;
+}
+
+.route-store-container{
+    transition: transform 0.2s;
+    height: 15rem;
+    border-radius: 2rem;
+}
+
+.route-store-container:hover{ 
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+.home-welcome-height{
+    min-height: 80vh;
+}
+
+.style-welcome-page{
+    max-width: 60rem;
+    width: 95%;
+}
+
+.home-page-title{
+    font-size: 4rem;
+    line-height: 120%;
+}
+
+.home-page-logo{
+    max-height: 20rem;
+    max-width: 20rem;
+    width: 100%;
+}
+
+.home-about{
+    width: 95%;
+    max-width: 80rem;
+}
+
+.home-about-title{
+    font-size: 2rem;
+}
+
+.home-about-desc, .home-svg-captions{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer{
+    height: 10rem;
+}

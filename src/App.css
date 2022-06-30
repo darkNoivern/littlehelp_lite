@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Fredericka+the+Great&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/* FONTS CLASSES */
+
+.fred{
+  font-family: 'Fredericka the Great', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bree{
+  font-family: 'Bree Serif', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.abril{
+  font-family: 'Abril Fatface', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mouse-rat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flexy{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+.bg-blue{
+  background-color: #00b5ad;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-inverse{ 
+  background-color: rgb(217, 250, 250);
 }
+
+.gradient{
+  height: 4rem;
+  background-image: linear-gradient(#00b5ad,rgb(217, 250, 250));
+}
+
+.inverse-gradient{
+  height: 4rem;
+  background-image: linear-gradient(rgb(217, 250, 250),#00b5ad);
+}
+

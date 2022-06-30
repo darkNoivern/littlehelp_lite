@@ -1,0 +1,12 @@
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem !important;
+}
+
+.active{
+    border-bottom: 1px solid red;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
